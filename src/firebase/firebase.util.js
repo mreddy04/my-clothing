@@ -2,16 +2,8 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
-const config = {
-    apiKey: "AIzaSyCBqrwKRPnR8x91g1y0RiQ60xt9HPf6NN4",
-    authDomain: "my-clothing-6c6a6.firebaseapp.com",
-    databaseURL: "https://my-clothing-6c6a6.firebaseio.com",
-    projectId: "my-clothing-6c6a6",
-    storageBucket: "my-clothing-6c6a6.appspot.com",
-    messagingSenderId: "462571377277",
-    appId: "1:462571377277:web:e6a4619906ba818b7dd714",
-    measurementId: "G-XTXK9K8JEK"
-};
+const config = {};
+//user firbase api keys for your project
 
 firebase.initializeApp(config);
 
